@@ -1,0 +1,46 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "extends": [
+        "react-app",
+        "react-app/jest",
+        "airbnb",
+        "airbnb-typescript",
+        "plugin:import/typescript",
+        // suppress errors for missing 'import React' in files
+        "plugin:react/jsx-runtime"
+    ],
+    "overrides": [],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./tsconfig.json",
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": ["react", "@typescript-eslint"],
+    "rules": {
+        "quotes": ["error", "double", { "avoidEscape": true }],
+        "@typescript-eslint/quotes": [
+            "error",
+            "double",
+            { "avoidEscape": true }
+        ],
+        "indent": ["error", 4],
+        "@typescript-eslint/indent": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "no-restricted-exports": "off",
+        // only arrow functions for named components
+        "react/function-component-definition": [
+            2,
+            { "namedComponents": "arrow-function" }
+        ],
+        "@typescript-eslint/comma-dangle": "off",
+        "react/jsx-uses-react": "off",
+        "react/jsx-props-no-spreading": "warn",
+        "no-shadow": "off"
+    }
+}
