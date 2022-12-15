@@ -25,9 +25,11 @@
         "watch": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
+        "test:nowatch": "react-scripts test --watchAll=false",
         "eject": "react-scripts eject",
         "lint": "eslint .",
-        "lint:fix": "eslint --fix ."
+        "lint:fix": "eslint --fix .",
+        "prepare": "husky install"
     },
     "eslintConfig": {
         "extends": [
@@ -57,6 +59,7 @@
         "eslint-plugin-n": "^15.0.0",
         "eslint-plugin-promise": "^6.0.0",
         "eslint-plugin-react": "^7.28.0",
-        "eslint-plugin-react-hooks": "^4.3.0"
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "husky": "^8.0.0"
     }
 }
