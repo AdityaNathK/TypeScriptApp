@@ -27,3 +27,10 @@ jobs:
           yarn install
           yarn build --if-present
           yarn test
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages
+          folder: build
+          clean: true
+          ssh-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
