@@ -37,6 +37,8 @@
     },
     "scripts": {
         "watch": "react-scripts start",
+        "predeploy": "yarn build",
+        "deploy": "gh-pages -d build",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "test:nowatch": "react-scripts test --watchAll=false",
