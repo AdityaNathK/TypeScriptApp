@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/AdityaNathK/TypeScriptApp/static/css/main.eeb4ae37.css",
-    "main.js": "/AdityaNathK/TypeScriptApp/static/js/main.f87969e0.js",
-    "static/js/787.fda8e7a5.chunk.js": "/AdityaNathK/TypeScriptApp/static/js/787.fda8e7a5.chunk.js",
-    "static/media/logo.svg": "/AdityaNathK/TypeScriptApp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/AdityaNathK/TypeScriptApp/index.html",
-    "main.eeb4ae37.css.map": "/AdityaNathK/TypeScriptApp/static/css/main.eeb4ae37.css.map",
-    "main.f87969e0.js.map": "/AdityaNathK/TypeScriptApp/static/js/main.f87969e0.js.map",
-    "787.fda8e7a5.chunk.js.map": "/AdityaNathK/TypeScriptApp/static/js/787.fda8e7a5.chunk.js.map"
+    "main.css": "/TypeScriptApp/static/css/main.eeb4ae37.css",
+    "main.js": "/TypeScriptApp/static/js/main.43499648.js",
+    "static/js/787.fda8e7a5.chunk.js": "/TypeScriptApp/static/js/787.fda8e7a5.chunk.js",
+    "static/media/logo.svg": "/TypeScriptApp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/TypeScriptApp/index.html",
+    "main.eeb4ae37.css.map": "/TypeScriptApp/static/css/main.eeb4ae37.css.map",
+    "main.43499648.js.map": "/TypeScriptApp/static/js/main.43499648.js.map",
+    "787.fda8e7a5.chunk.js.map": "/TypeScriptApp/static/js/787.fda8e7a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eeb4ae37.css",
-    "static/js/main.f87969e0.js"
+    "static/js/main.43499648.js"
   ]
 }
